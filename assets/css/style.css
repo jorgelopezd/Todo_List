@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    color: black;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  hr{
+    border: solid 1px black;
+  }
+
+  #nuevatarea {
+    padding: 20px;
+  }
+
+  #nuevatarea p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  #tareaboton {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+
+  #containertotal {
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #containertotal div {
+    text-align: center;
+  }
+
+  #containertotal span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .id-tarea {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
