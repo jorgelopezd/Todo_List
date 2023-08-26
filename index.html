@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Todo List</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <header>Todo List</header>
 
-</head>
-<body>
-<header>Todo List</header>
+    <br>
 
-<br>
+    <section id="nuevatarea">
+      <p>Nueva Tarea</p>
+      <input type="text" id="entradaTarea" />
+      <button id="botonAgregarTarea">Agregar</button>
+    </section>
 
-<section id="nuevatarea">
-    <p>Nueva Tarea</p>
-    <input type="text">
-    <button>Agregar</button>
-</section>
-
-<section id="containertotal">
-    <div>
-        <p>Total: <span>0</span></p>
-        <p>Realizadas: <span>0</span></p>
-    </div>
-    <div class="id-tarea">
-        <div>
-            <p>ID</p>
-            <span></span>
-        </div>
-        <div style="margin-left: 20px;">
-            <p>Tarea</p>
-            <span></span>
-        </div>
-    </div>
-</section>
-</body>
+    <section id="contenedorTotal">
+      <div>
+        <p>Total: <span id="totalTareas">0</span></p>
+        <p>Realizadas: <span id="tareasCompletadas">0</span></p>
+      </div>
+      <ul id="listaTareas">
+        <li>
+          <span>ID</span>
+          <span>Tarea</span>
+        </li>
+      </ul>
+    </section>
+    <script src="assets/js/index.js"></script>
+  </body>
 </html>

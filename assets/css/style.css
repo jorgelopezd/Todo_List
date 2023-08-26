@@ -27,13 +27,7 @@ body {
     margin-bottom: 10px;
   }
 
-  #tareaboton {
-    width: 80%;
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-
-  button {
+  #botonAgregarTarea {
     background-color: #4caf50;
     color: white;
     border: none;
@@ -41,7 +35,7 @@ body {
     cursor: pointer;
   }
 
-  #containertotal {
+  #contenedorTotal {
     background-color: #fff;
     padding: 20px;
     margin: 0 auto;
@@ -49,15 +43,35 @@ body {
     justify-content: space-between;
   }
 
-  #containertotal div {
-    text-align: center;
+  #containertotal ul {
+    list-style: none;
+    padding: 0;
+    width: 50%;
   }
+  
 
   #containertotal span {
     font-size: 18px;
     font-weight: bold;
   }
-
+  #listaTareas{
+    list-style: none;
+    padding: 0;
+  }
+  #listaTareas li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  #ListaTareas button{
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
   .id-tarea {
     display: flex;
     justify-content: space-between;
